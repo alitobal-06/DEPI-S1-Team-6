@@ -1,0 +1,47 @@
+:root {
+    --primary-green: #198754;
+    --dark-green: #157347;
+    --light-green: #dcfce7;
+    --text-dark: #292524;
+    --text-gray: #6b7280;
+    --bg-light: #f9fafb;
+}
+
+* {
+    font-family: 'Inter', system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+}
+
+.related-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 14px;
+  background-color: white;
+  padding: 12px;
+  border-radius: 12px;
+}
+
+.related-item h4 {
+    margin: 0px;
+}
+
+.related-item p {
+    margin: 0px;
+}
+
+.related-item .rel-details {
+    font-size: smaller;
+    color: rgb(96, 96, 96);
+}
+
+.related-item .price {
+    color: var(--dark-green);
+    font-weight: bold;
+}
+
+.related-item img {
+  width: 60px;
+  height: 60px;
+  border-radius: 8px;
+  object-fit: cover;
+}

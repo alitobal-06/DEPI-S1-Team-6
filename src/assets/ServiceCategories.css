@@ -1,0 +1,83 @@
+:root {
+    --primary-green: #198754;
+    --dark-green: #157347;
+    --light-green: #e9fff1;
+}
+
+.services-wrapper {
+    width: 90%;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.title {
+    font-size: 32px;
+    font-weight: bold;
+    color:black;
+}
+
+.subtitle {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 25px;
+}
+
+.service-card {
+    background: #fff;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    text-align: left;
+    transition: 0.2s;
+}
+
+.service-card:hover {
+    transform: translateY(-4px);
+}
+
+.icon-box {
+    width: 60px;
+    height: 60px;
+    background: var(--light-green);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 26px;
+    color: var(--primary-green);
+    margin-bottom: 15px;
+}
+
+.service-name {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.service-description {
+    font-size: 14px;
+    color: #777;
+    margin: 10px 0 20px 0;
+}
+
+.manage-btn {
+    width: 100%;
+    background:var(--primary-green);
+    border: none;
+    color: #fff;
+    padding: 12px 0;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.2s;
+}
+
+.manage-btn:hover {
+    background: var(--dark-green);
+}

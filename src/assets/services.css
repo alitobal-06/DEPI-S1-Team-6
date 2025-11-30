@@ -1,0 +1,120 @@
+/* ROOT COLORS */
+:root {
+  --green: #2E7D32;
+  --green-dark: #1B5E20;
+  --beige: #FAF9F6;
+  --beige-2: #F5F5DC;
+  --text: #333;
+  --muted: #6b7280;
+  --radius: 16px;
+  --shadow: 0 8px 24px rgba(0, 0, 0, .08);
+}
+
+/* BODY */
+body {
+  background: var(--beige);
+  color: var(--text);
+  font-family: 'Cairo', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* HERO SECTION */
+.page-hero {
+  background: linear-gradient(180deg, rgba(46, 125, 50, .08), rgba(245, 245, 220, .6));
+  border-bottom: 1px solid rgba(0, 0, 0, .06);
+  padding: 4rem 0 3rem;
+}
+
+.page-title {
+  font-family: 'Playfair Display', serif;
+  font-weight: 900;
+  color: var(--green);
+  font-size: clamp(2rem, 3.6vw, 3.2rem);
+  line-height: 1.1;
+  margin: .75rem 0 .25rem;
+  letter-spacing: -0.6px;
+}
+
+.page-sub {
+  color: var(--muted);
+  font-size: 1.05rem;
+  font-family: 'Cairo', sans-serif;
+  max-width: 650px;
+  margin: 0 auto;
+  line-height: 1.5;
+}
+
+/* SERVICE CARDS */
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
+
+.service-card {
+  border: none;
+  border-radius: var(--radius);
+  overflow: hidden;
+  background: #fff;
+  box-shadow: var(--shadow);
+  transition: transform .25s ease, box-shadow .25s ease;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  
+}
+
+.service-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, .12);
+}
+
+.service-img {
+  height: 180px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.card-body {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1rem 1rem 1.25rem;
+}
+
+.service-title {
+  font-family: 'Poppins', sans-serif;
+  color: var(--green);
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: .35rem;
+  letter-spacing: 0.3px;
+}
+
+.service-desc {
+  font-family: 'Cairo', sans-serif;
+  color: #4b5563;
+  font-size: .95rem;
+  line-height: 1.55;
+  flex-grow: 1;
+  margin-bottom: 0.5rem;
+}
+
+/* FLEX FOR CARDS TO BE SAME HEIGHT */
+.row.g-4 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.col-12.col-md-6.col-lg-4.col-xl-3.d-flex {
+  display: flex;
+}
+
+.service-card {
+  flex: 1;
+}
+/* */
