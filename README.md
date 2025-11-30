@@ -1,1 +1,0 @@
-# DEPI-S1-Team-6
