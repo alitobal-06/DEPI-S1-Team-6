@@ -1,0 +1,78 @@
+.aboutContent {
+    padding: 0px 12%;
+}
+
+h1 {
+    font-weight: bolder;
+    font-size: 36px;
+}
+
+h1 span {
+    font-size: 36px;
+}
+
+.subtitle {
+    font-size: 16px;
+    color: #79B931;
+}
+
+.description {
+    text-align: justify;
+}
+
+h2 {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.vision, .mission {
+    border-top: 1px solid #e5e8eb;
+}
+
+.vision {
+    margin-left: 12px;
+}
+
+.vision h1, .mission h1 {
+    font-size: 14px;
+    font-weight: normal;
+    color: #79B931;
+}
+
+.vision p, .mission p {
+    font-size: 14px;
+}
+
+.valueRow {
+    padding: 0 12px;
+}
+
+.value p {
+    margin: 0 9px 0 0;
+    
+}
+
+.value {
+    border: 2px solid #79B931;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 15px 15px;
+    font-weight: bold;  
+}
+
+#exploreServices {
+    background-color: #79B931;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 8px;
+    border: 1px solid #79B931;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+
+#exploreServices:hover {
+    background-color: #5a8826;
+}

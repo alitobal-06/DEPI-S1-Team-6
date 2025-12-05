@@ -1,0 +1,608 @@
+{
+  "services": [
+    {
+      "id": 1,
+      "name": "Cleaning",
+      "image": "/imgs/cleaning.jpg",
+      "icon": "fa-broom",
+      "description": "Home & Office",
+      "offers": [
+        {
+          "id": 101,
+          "title": "Deep Home Cleaning",
+          "price": 500,
+          "unit": "EGP per visit",
+          "image": "/imgs/deepCleaning.jpg",
+          "shortDesc": "Professional deep cleaning for homes and furnished apartments.",
+          "description": "We provide deep cleaning including floors, windows, kitchens, bathrooms, carpets and furniture using professional equipment. Suitable for homes after renovation or long-term rental."
+        },
+        {
+          "id": 102,
+          "title": "Office Cleaning",
+          "price": 350,
+          "unit": "EGP per visit",
+          "image": "/imgs/officeCleaning.jpg",
+          "shortDesc": "Cleaning for offices & workspaces",
+          "description": "Full office cleaning including desks, glass, bathrooms and floor treatment. Perfect for corporate environments with flexible scheduling."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Plumbing",
+      "image": "/imgs/plumbing.jpg",
+      "icon": "fa-wrench",
+      "description": "Repairs & Installation",
+      "offers": [
+        {
+          "id": 201,
+          "title": "Pipe Leakage Repair",
+          "price": 120,
+          "unit": "EGP inspection",
+          "image": "/imgs/Pipe Leakage Repair.jpg",
+          "shortDesc": "Fix water leakage in bathrooms or kitchens",
+          "description": "Professional maintenance for leaking pipes and bathroom installations. Price includes inspection, final cost depends on service needs."
+        },
+        {
+          "id": 202,
+          "title": "Water Heater Installation",
+          "price": 250,
+          "unit": "EGP",
+          "image": "/imgs/Water Heater Installatio.jpg",
+          "shortDesc": "Install new water heater safely",
+          "description": "Installation service for electric and gas heaters with safety testing and pipe connection."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Electrical",
+      "image": "/imgs/Electrical.jpg",
+      "icon": "fa-bolt",
+      "description": "Wiring & Fixtures",
+      "offers": [
+        {
+          "id": 301,
+          "title": "Light Fixture Installation",
+          "price": 80,
+          "unit": "EGP each",
+          "image": "/imgs/Light Fixture Installation.jpg",
+          "shortDesc": "Install chandeliers, spotlights and wall lights",
+          "description": "Professional installation for all lighting types. Price may vary depending on wiring complexity."
+        },
+        {
+          "id": 302,
+          "title": "Electrical Repair",
+          "price": 100,
+          "unit": "EGP per hour",
+          "image": "/imgs/Electrical Repair.jpg",
+          "shortDesc": "Fix faulty wiring and electrical issues",
+          "description": "Expert troubleshooting and repair of home and office electrical systems."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Beauty",
+      "image": "/imgs/Beauty.jpg",
+      "icon": "fa-scissors",
+      "description": "Hair & Spa",
+      "offers": [
+        {
+          "id": 401,
+          "title": "Home Hair Styling",
+          "price": 200,
+          "unit": "EGP",
+          "image": "/imgs/Home Hair Styling.jpg",
+          "shortDesc": "Haircut & styling at home for ladies",
+          "description": "Professional stylist available at your home for haircut, blow dry and styling."
+        },
+        {
+          "id": 402,
+          "title": "Makeup Service",
+          "price": 300,
+          "unit": "EGP",
+          "image": "/imgs/Makeup Service.jpg",
+          "shortDesc": "Professional makeup for events and weddings",
+          "description": "Expert makeup artists come home to create perfect looks for special occasions."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Tutoring",
+      "image": "/imgs/Tutoring.jpg",
+      "icon": "fa-graduation-cap",
+      "description": "Academic Support",
+      "offers": [
+        {
+          "id": 501,
+          "title": "Math Private Lessons",
+          "price": 150,
+          "unit": "EGP per hour",
+          "image": "/imgs/Math Private Lessons.jpg",
+          "shortDesc": "One-to-one math tutoring for all grades",
+          "description": "Full tutoring support with practice tests and homework guidance."
+        },
+        {
+          "id": 502,
+          "title": "English Tutoring",
+          "price": 180,
+          "unit": "EGP per hour",
+          "image": "/imgs/English Tutoring.jpg",
+          "shortDesc": "Improve English skills for school and exams",
+          "description": "Experienced tutors provide reading, writing and conversation lessons."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Delivery",
+      "image": "/imgs/Delivery.jpg",
+      "icon": "fa-truck",
+      "description": "Fast & Reliable",
+      "offers": [
+        {
+          "id": 601,
+          "title": "Express Delivery",
+          "price": 40,
+          "unit": "EGP per order",
+          "image": "/imgs/Express Delivery.jpg",
+          "shortDesc": "Fast delivery within 45 minutes inside Cairo",
+          "description": "Door-to-door delivery for packages up to 10kg with tracking."
+        },
+        {
+          "id": 602,
+          "title": "Scheduled Delivery",
+          "price": 25,
+          "unit": "EGP per order",
+          "image": "/imgs/Scheduled Delivery.jpg",
+          "shortDesc": "Choose your preferred delivery time",
+          "description": "Delivery at a scheduled time slot for convenience and planning."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "IT Support",
+      "image": "/imgs/IT Support.jpg",
+      "icon": "fa-laptop",
+      "description": "Tech Solutions",
+      "offers": [
+        {
+          "id": 701,
+          "title": "Laptop Repair",
+          "price": 150,
+          "unit": "EGP inspection",
+          "image": "/imgs/Laptop Repair.jpg",
+          "shortDesc": "Fix laptop hardware & software issues",
+          "description": "Diagnosis and repair for all laptop brands. Extra fees depend on required parts."
+        },
+        {
+          "id": 702,
+          "title": "Virus Removal",
+          "price": 100,
+          "unit": "EGP per device",
+          "image": "/imgs/Virus Removal.jpg",
+          "shortDesc": "Remove malware and optimize system",
+          "description": "Clean your device from viruses and speed up its performance."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Air Conditioning",
+      "image": "/imgs/AirConditioning .jpg",
+      "icon": "fa-snowflake",
+      "description": "AC Maintenance & Installation",
+      "offers": [
+        {
+          "id": 801,
+          "title": "AC Cleaning",
+          "price": 150,
+          "unit": "EGP per unit",
+          "image": "/imgs/AC Cleaning.jpg",
+          "shortDesc": "Professional cleaning of home AC units",
+          "description": "Full AC cleaning including filters, ducts and coils for better efficiency."
+        },
+        {
+          "id": 802,
+          "title": "AC Installation",
+          "price": 600,
+          "unit": "EGP per unit",
+          "image": "/imgs/AC Installation.jpg",
+          "shortDesc": "Installation of split AC units",
+          "description": "Safe installation by certified technicians including testing and warranty."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Carpentry",
+      "image": "/imgs/Carpentry.jpg",
+      "icon": "fa-hammer",
+      "description": "Wood & Furniture Works",
+      "offers": [
+        {
+          "id": 901,
+          "title": "Furniture Repair",
+          "price": 200,
+          "unit": "EGP per piece",
+          "image": "/imgs/Furniture Repair.jpg",
+          "shortDesc": "Repair and restoration of furniture",
+          "description": "Fix broken chairs, tables, cabinets, and more with quality finish."
+        },
+        {
+          "id": 902,
+          "title": "Custom Woodwork",
+          "price": 500,
+          "unit": "EGP per project",
+          "image": "/imgs/Custom Woodwork.jpg",
+          "shortDesc": "Design and build custom wood furniture",
+          "description": "Tailored wood solutions for home and office interiors."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Painting",
+      "image": "/imgs/Painting.jpg",
+      "icon": "fa-paint-roller",
+      "description": "Wall & Surface Painting",
+      "offers": [
+        {
+          "id": 1001,
+          "title": "Interior Painting",
+          "price": 250,
+          "unit": "EGP per room",
+          "image": "/imgs/Interior Painting.jpg",
+          "shortDesc": "Paint rooms with quality paints",
+          "description": "Professional interior wall painting services for homes and offices."
+        },
+        {
+          "id": 1002,
+          "title": "Exterior Painting",
+          "price": 350,
+          "unit": "EGP per building",
+          "image": "/imgs/Exterior Painting.jpg",
+          "shortDesc": "Paint building exteriors",
+          "description": "Durable paint for external walls with weather protection."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Tiling",
+      "image": "/imgs/Tiling.jpg",
+      "icon": "fa-th-large",
+      "description": "Ceramic & Porcelain Tiling",
+      "offers": [
+        {
+          "id": 1101,
+          "title": "Floor Tiling",
+          "price": 200,
+          "unit": "EGP per sqm",
+          "image": "/imgs/Floor Tiling.jpg",
+          "shortDesc": "Tile floors with precision",
+          "description": "Professional tiling for floors with high-quality materials."
+        },
+        {
+          "id": 1102,
+          "title": "Wall Tiling",
+          "price": 180,
+          "unit": "EGP per sqm",
+          "image": "/imgs/Wall Tiling.jpg",
+          "shortDesc": "Tile walls in kitchens/bathrooms",
+          "description": "Expert installation for kitchen and bathroom walls."
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Marble Works",
+      "image": "/imgs/Marble.jpg",
+      "icon": "fa-cube",
+      "description": "Marble Installation & Polishing",
+      "offers": [
+        {
+          "id": 1201,
+          "title": "Floor Marble Installation",
+          "price": 400,
+          "unit": "EGP per sqm",
+          "image": "/imgs/Marble.jpg",
+          "shortDesc": "Install marble flooring",
+          "description": "Professional marble flooring installation for homes and offices."
+        },
+        {
+          "id": 1202,
+          "title": "Marble Polishing",
+          "price": 100,
+          "unit": "EGP per sqm",
+          "image": "/imgs/Marble.jpg",
+          "shortDesc": "Polish marble surfaces",
+          "description": "Restore shine and smoothness to marble floors and countertops."
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Parquet Flooring",
+      "image": "/imgs/Flooring.jpg",
+      "icon": "fa-th",
+      "description": "Wooden Flooring",
+      "offers": [
+        {
+          "id": 1301,
+          "title": "Parquet Installation",
+          "price": 300,
+          "unit": "EGP per sqm",
+          "image": "/assets/imgs/parquet1.jpg",
+          "shortDesc": "Install parquet floors",
+          "description": "High-quality parquet floor installation for homes and offices."
+        },
+        {
+          "id": 1302,
+          "title": "Parquet Repair",
+          "price": 150,
+          "unit": "EGP per sqm",
+          "image": "/assets/imgs/parquet2.jpg",
+          "shortDesc": "Repair and maintenance of parquet",
+          "description": "Fix scratches, dents, and restore parquet floors."
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "False Ceilings",
+      "image": "/imgs/FalseCeilings.jpg",
+      "icon": "fa-columns",
+      "description": "Gypsum Board & Ceiling Works",
+      "offers": [
+        {
+          "id": 1401,
+          "title": "False Ceiling Installation",
+          "price": 250,
+          "unit": "EGP per sqm",
+          "image": "/assets/imgs/ceiling1.jpg",
+          "shortDesc": "Install gypsum ceilings",
+          "description": "Professional false ceiling installation for aesthetic interiors."
+        },
+        {
+          "id": 1402,
+          "title": "Ceiling Repair",
+          "price": 120,
+          "unit": "EGP per sqm",
+          "image": "/assets/imgs/ceiling2.jpg",
+          "shortDesc": "Repair ceiling damages",
+          "description": "Fix cracks, water damage and repaint false ceilings."
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Satellite & TV",
+      "image": "/imgs/Satellite.jpg",
+      "icon": "fa-tv",
+      "description": "Installation & Maintenance",
+      "offers": [
+        {
+          "id": 1501,
+          "title": "Satellite Installation",
+          "price": 300,
+          "unit": "EGP per unit",
+          "image": "/assets/imgs/satellite1.jpg",
+          "shortDesc": "Install satellite dishes",
+          "description": "Professional installation and alignment for TV satellites."
+        },
+        {
+          "id": 1502,
+          "title": "TV Mounting",
+          "price": 150,
+          "unit": "EGP per unit",
+          "image": "/assets/imgs/tv_mount.jpg",
+          "shortDesc": "Mount TVs on walls",
+          "description": "Safe wall mounting with cable management for all TV types."
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Welding & Iron Works",
+      "image": "/imgs/IronWorks.jpg",
+      "icon": "fa-fire",
+      "description": "Metal Fabrication & Repair",
+      "offers": [
+        {
+          "id": 1601,
+          "title": "Gate & Door Fabrication",
+          "price": 400,
+          "unit": "EGP per unit",
+          "image": "/assets/imgs/welding1.jpg",
+          "shortDesc": "Fabricate gates and doors",
+          "description": "Custom metalwork for gates, doors, and railings."
+        },
+        {
+          "id": 1602,
+          "title": "Iron Repair",
+          "price": 150,
+          "unit": "EGP per unit",
+          "image": "/assets/imgs/welding2.jpg",
+          "shortDesc": "Repair metal structures",
+          "description": "Repair iron railings, frames, and balconies."
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "name": "Office & Corporate Cleaning",
+      "image": "/imgs/Office & Corporate Cleaning.jpg",
+      "icon": "fa-building",
+      "description": "Commercial Cleaning Services",
+      "offers": [
+        {
+          "id": 1701,
+          "title": "Office Cleaning",
+          "price": 500,
+          "unit": "EGP per office",
+          "image": "/assets/imgs/office1.jpg",
+          "shortDesc": "Full office cleaning",
+          "description": "Cleaning of desks, carpets, AC filters, and windows."
+        },
+        {
+          "id": 1702,
+          "title": "Corporate AC Maintenance",
+          "price": 600,
+          "unit": "EGP per building",
+          "image": "/assets/imgs/office2.jpg",
+          "shortDesc": "AC cleaning & maintenance",
+          "description": "Keep corporate buildings ACs efficient and clean."
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Gardening & Landscaping",
+      "image": "/imgs/GardeningLandscaping.jpg",
+      "icon": "fa-seedling",
+      "description": "Garden Design & Maintenance",
+      "offers": [
+        {
+          "id": 1801,
+          "title": "Garden Landscaping",
+          "price": 400,
+          "unit": "EGP per project",
+          "image": "/assets/imgs/garden1.jpg",
+          "shortDesc": "Design gardens & lawns",
+          "description": "Professional design and planting of gardens and lawns."
+        },
+        {
+          "id": 1802,
+          "title": "Garden Maintenance",
+          "price": 150,
+          "unit": "EGP per month",
+          "image": "/assets/imgs/garden2.jpg",
+          "shortDesc": "Maintain gardens & lawns",
+          "description": "Trimming, watering, fertilizing and pest control services."
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "name": "Home Appliances Repair",
+      "image": "/imgs/HomeAppliancesRepair.jpg",
+      "icon": "fa-cogs",
+      "description": "Repair of Home Devices",
+      "offers": [
+        {
+          "id": 1901,
+          "title": "Washing Machine Repair",
+          "price": 200,
+          "unit": "EGP per unit",
+          "image": "/assets/imgs/appliance1.jpg",
+          "shortDesc": "Repair washing machines",
+          "description": "Repair and replace parts with genuine spares."
+        },
+        {
+          "id": 1902,
+          "title": "Refrigerator Repair",
+          "price": 250,
+          "unit": "EGP per unit",
+          "image": "/assets/imgs/appliance2.jpg",
+          "shortDesc": "Repair fridges & freezers",
+          "description": "Full diagnosis and repair with warranty."
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "name": "Upholstery & Curtains",
+      "image": "/imgs/UpholsteryCurtains .jpg",
+      "icon": "fa-chair",
+      "description": "Furniture & Curtain Services",
+      "offers": [
+        {
+          "id": 2001,
+          "title": "Sofa Reupholstery",
+          "price": 300,
+          "unit": "EGP per piece",
+          "image": "/assets/imgs/upholstery1.jpg",
+          "shortDesc": "Refurbish sofas & chairs",
+          "description": "Change fabric and padding professionally."
+        },
+        {
+          "id": 2002,
+          "title": "Curtain Making",
+          "price": 250,
+          "unit": "EGP per window",
+          "image": "/assets/imgs/upholstery2.jpg",
+          "shortDesc": "Custom curtains",
+          "description": "Design and tailor curtains to your style and measurements."
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "name": "General Maintenance",
+      "image": "/imgs/GeneralMaintenance .jpg",
+      "icon": "fa-tools",
+      "description": "Home & Office Repairs",
+      "offers": [
+        {
+          "id": 2101,
+          "title": "Plumbing & Electrical",
+          "price": 200,
+          "unit": "EGP per call",
+          "image": "/assets/imgs/maintenance1.jpg",
+          "shortDesc": "Fix plumbing & electrical issues",
+          "description": "Quick maintenance for any household problems."
+        },
+        {
+          "id": 2102,
+          "title": "Appliance Servicing",
+          "price": 150,
+          "unit": "EGP per unit",
+          "image": "/assets/imgs/maintenance2.jpg",
+          "shortDesc": "Repair & maintain devices",
+          "description": "Service refrigerators, ACs, and more."
+        }
+      ]
+    }
+  ],
+  "bookingForm": {
+    "fields": [
+      "fullName",
+      "phoneNumber",
+      "Email",
+      "address",
+      "City",
+      "notes",
+      "executionDate"
+    ],
+    "submitButton": "Confirm Booking"
+  },
+  "bookingSuccess": {
+    "message": "Your booking has been placed successfully!",
+    "subMessage": "The service team will contact you shortly"
+  },
+  "testimonials": [
+    {
+      "id": 1,
+      "name": "Sarah Johnson",
+      "img": "/imgs/customer1.jpeg",
+      "quote": "Amazing service! The cleaning team was professional, thorough, and left my house spotless."
+    },
+    {
+      "id": 2,
+      "name": "Mike Chen",
+      "img": "/imgs/customer2.jpeg",
+      "quote": "Fixed my plumbing issue in no time! Great service and fair pricing."
+    },
+    {
+      "id": 3,
+      "name": "Emma Davis",
+      "img": "/imgs/customer3.jpeg",
+      "quote": "The mobile beauty service was fantastic! So convenient and high quality."
+    }
+  ],
+  "bookings": []
+}

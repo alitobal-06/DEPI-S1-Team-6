@@ -1,0 +1,138 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f8f9fc;
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar {
+    width: 240px;
+    height: 100vh;
+    background: #F7FAFA;
+    position: fixed;
+    border-right: 1px solid #ddd;
+    padding: 20px;
+}
+
+.sidebar .nav-link {
+    color: #333;
+    padding: 10px 14px;
+    border-radius: 10px;
+    transition: 0.3s ease;
+    font-weight: 500;
+}
+
+.sidebar .nav-link:hover {
+    background: #E8F2E8;
+
+}
+
+.sidebar .nav-link.active {
+    background: #E8F2E8;
+    color: #4F944F;
+    font-weight: 600;
+}
+
+.back-link {
+    color: #555;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.back-link:hover {
+    text-decoration: underline;
+    color: #4F944F;
+}
+.orders-container {
+   margin-left: 260px;
+    padding: 20px;
+}
+
+.orders-title {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+
+/* === Table === */
+.orders-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+.orders-table thead {
+  background: #f2f4f7;
+}
+
+.orders-table th,
+.orders-table td {
+  padding: 14px 18px;
+  text-align: left;
+  border-bottom: 1px solid #eee;
+}
+
+.orders-table tr:last-child td {
+  border-bottom: none;
+}
+
+/* === Status Badges === */
+.status-badge {
+  padding: 6px 12px;
+  border-radius: 999px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.status-new {
+  background: #e8f0ff;
+  color: #2d6cdf;
+}
+
+.status-progress {
+  background: #fff4cc;
+  color: #b88a00;
+}
+
+.status-done {
+  background: #d4f7d4;
+  color: #2c8a3f;
+}
+
+/* === Buttons === */
+.btn {
+  padding: 8px 16px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  transition: 0.2s;
+}
+
+.btn-start {
+  background: #2563eb;
+  color: white;
+}
+
+.btn-start:hover {
+  background: #1d4ed8;
+}
+
+.btn-complete {
+  background: #059669;
+  color: white;
+}
+
+.btn-complete:hover {
+  background: #047857;
+}
+
+.completed-text {
+  color: #777;
+  font-weight: 500;
+}

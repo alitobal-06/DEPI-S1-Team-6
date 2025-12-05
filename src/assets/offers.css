@@ -1,0 +1,88 @@
+body {
+    background: #F7FAFA;
+}
+
+.sidebar {
+    width: 240px;
+    height: 100vh;
+    background: #F7FAFA;
+    position: fixed;
+    border-right: 1px solid #ddd;
+    padding: 20px;
+}
+
+.sidebar .nav-link {
+    color: #333;
+    padding: 10px 14px;
+    border-radius: 10px;
+    transition: 0.3s ease;
+    font-weight: 500;
+}
+
+.sidebar .nav-link:hover {
+    background: #E8F2E8;
+
+}
+
+.sidebar .nav-link.active {
+    background: #E8F2E8;
+    color: #4F944F;
+    font-weight: 600;
+}
+
+.back-link {
+    color: #555;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.back-link:hover {
+    text-decoration: underline;
+    color: #4F944F;
+}
+
+.content {
+    margin-left: 260px;
+    padding: 20px;
+ }
+
+/* .offer-card {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #e1dcdc;
+  width: 100%;          
+  box-sizing: border-box;
+}
+
+#offersList {
+  width: 100%;
+} */
+
+.offers-flex {
+  display: flex;
+  flex-wrap: wrap;       
+  gap: 20px;             
+}
+
+.offer-card {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  border: 1px solid #e1dcdc;
+  /* flex:300px;        */
+  width: 350px;
+  box-sizing: border-box;
+  transition: 0.3s;
+}
+
+.offer-card:hover {
+    box-shadow: 0px 5px 10px #aaa9a9;
+}
+
+.icon-btn {
+    cursor: pointer;
+    font-size: 22px;
+    margin: 10px;
+}
